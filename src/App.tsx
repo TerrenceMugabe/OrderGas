@@ -109,7 +109,7 @@ const features: Feature[] = [
   { icon: <Smartphone className="w-5 h-5" />, title: 'No App Needed', description: 'Use WhatsApp you already have. No downloads required.' },
   { icon: <Zap className="w-5 h-5" />, title: 'Super Fast', description: 'Complete your order in under 60 seconds.' },
   { icon: <ShieldCheck className="w-5 h-5" />, title: 'Secure Payment', description: 'Encrypted payment processing. Your data is safe.' },
-  { icon: <Truck className="w-5 h-5" />, title: 'Same-Day Delivery', description: 'Get your gas within hours or a few days. You choose the delivery window.' },
+  { icon: <Truck className="w-5 h-5" />, title: 'Flexible Delivery', description: 'Get your gas within hours or a few days. You choose the delivery window.' },
   { icon: <History className="w-5 h-5" />, title: 'Order History', description: 'Reorder with one message. History saved in chat.' },
 ];
 
@@ -117,7 +117,7 @@ const steps: Step[] = [
   { number: '1', title: 'Say Hi', description: 'Send "Hi" to our WhatsApp bot to start ordering.' },
   { number: '2', title: 'Browse', description: 'View our catalog and select your gas cylinder size.' },
   { number: '3', title: 'Details', description: 'Enter your address and choose delivery time.' },
-  { number: '4', title: 'Done!', description: 'Pay securely and we\'ll deliver same-day.' },
+  { number: '4', title: 'Done!', description: 'Pay securely and select a delivery time that works for you.' },
 ];
 
 // WhatsApp Icon Component
