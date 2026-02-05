@@ -766,11 +766,6 @@ const Footer = () => {
           transition={{ duration: 0.5 }}
           className="flex flex-col items-center gap-5"
         >
-          <img 
-            src="https://i.postimg.cc/VkhcC3LR/TGC-LOGO-HORISONTAL.png" 
-            alt="The Gas Company" 
-            className="h-10 w-auto object-contain brightness-0 invert"
-          />
           <p className="text-[#94a3b8] text-sm text-center">
             &copy; {new Date().getFullYear()} The Gas Company. All rights reserved. Since 1947
           </p>
