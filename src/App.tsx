@@ -345,47 +345,20 @@ const Hero = () => {
                     </div>
                     
                     {/* Chat Messages */}
-                    <div className="p-4 space-y-3">
-                      <motion.div 
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.5 }}
-                        className="bg-white p-3 rounded-lg rounded-tl-none shadow-sm max-w-[85%]"
-                      >
-                        <p className="text-sm text-[#0f172a]">Hi! Welcome to The Gas Company. How can I help you today?</p>
-                        <p className="text-[10px] text-[#94a3b8] mt-1 text-right">10:30 AM</p>
-                      </motion.div>
-                      
-                      <motion.div 
-                        initial={{ opacity: 0, x: 20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.8 }}
-                        className="bg-[#dcf8c6] p-3 rounded-lg rounded-tr-none shadow-sm max-w-[85%] ml-auto"
-                      >
-                        <p className="text-sm text-[#0f172a]">Hi! I&apos;d like to order gas</p>
-                        <p className="text-[10px] text-[#94a3b8] mt-1 text-right">10:31 AM</p>
-                      </motion.div>
-                      
-                      <motion.div 
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 1.1 }}
-                        className="bg-white p-3 rounded-lg rounded-tl-none shadow-sm max-w-[90%]"
-                      >
-                        <p className="text-sm text-[#0f172a] mb-2">Great! Please select a cylinder size:</p>
-                        <div className="space-y-1.5">
-                          {['9kg - R340', '19kg - R715', '48kg - R1,810'].map((size, i) => (
-                            <div 
-                              key={i}
-                              className="bg-[#f0f2f5] px-3 py-2 rounded-lg text-sm text-[#0f172a] cursor-pointer hover:bg-[#e2e8f0] transition-colors"
-                            >
-                              {size}
-                            </div>
-                          ))}
-                        </div>
-                        <p className="text-[10px] text-[#94a3b8] mt-2 text-right">10:31 AM</p>
-                      </motion.div>
-                    </div>
+<div className="p-4">
+  <motion.div 
+    initial={{ opacity: 0, y: 10 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.5 }}
+    className="rounded-lg overflow-hidden shadow-lg"
+  >
+    <img 
+      src="https://i.ibb.co/rK36vpzz/Hi.jpg" 
+      alt="Order Gas Information" 
+      className="w-full h-auto" 
+    />
+  </motion.div>
+</div>
                   </div>
                 </div>
               </div>
