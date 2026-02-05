@@ -92,7 +92,7 @@ const faqItems: FAQItem[] = [
   },
   {
     question: 'Do you deliver to my area?',
-    answer: 'We deliver across Gauteng and major cities in South Africa. Enter your address during checkout to confirm availability.'
+    answer: 'We deliver across Gauteng. Simply enter your address at checkout to confirm availability.'
   },
   {
     question: 'Can I track my delivery?',
@@ -109,7 +109,7 @@ const features: Feature[] = [
   { icon: <Smartphone className="w-5 h-5" />, title: 'No App Needed', description: 'Use WhatsApp you already have. No downloads required.' },
   { icon: <Zap className="w-5 h-5" />, title: 'Super Fast', description: 'Complete your order in under 60 seconds.' },
   { icon: <ShieldCheck className="w-5 h-5" />, title: 'Secure Payment', description: 'Encrypted payment processing. Your data is safe.' },
-  { icon: <Truck className="w-5 h-5" />, title: 'Same-Day Delivery', description: 'Get your gas within hours. Choose your window.' },
+  { icon: <Truck className="w-5 h-5" />, title: 'Same-Day Delivery', description: 'Get your gas within hours or a few days. You choose the delivery window.' },
   { icon: <History className="w-5 h-5" />, title: 'Order History', description: 'Reorder with one message. History saved in chat.' },
 ];
 
@@ -263,7 +263,7 @@ const Hero = () => {
               variants={fadeInUp}
               className="text-base lg:text-lg text-[#64748b] mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
-              Skip the queues and calls. Order your gas cylinders instantly through WhatsApp and get fast, convenient delivery to your doorstep.
+              Skip the queues, calls, and heavy lifting. Order your gas cylinders instantly through WhatsApp and get fast, convenient delivery to your doorstep. You don’t have to carry your own cylinder and we can even connect it for you.
             </motion.p>
 
             <motion.div 
