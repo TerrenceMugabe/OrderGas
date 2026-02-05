@@ -196,7 +196,7 @@ const Navigation = () => {
             ) : (
               <WhatsAppIcon className="w-4 h-4 lg:w-5 lg:h-5" />
             )}
-            <span className="hidden sm:inline">Order Now</span>
+            <span className="hidden sm:inline">Order Gas</span>
             <span className="sm:hidden">Order</span>
           </motion.button>
         </div>
