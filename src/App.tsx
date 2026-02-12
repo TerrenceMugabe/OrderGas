@@ -833,11 +833,6 @@ function App() {
         }}
       />
 
-      {/* Skip Link for Accessibility */}
-      <a href="#main-content" className="skip-link">
-        Skip to main content
-      </a>
-
       {/* Navigation */}
       <Navigation />
 
