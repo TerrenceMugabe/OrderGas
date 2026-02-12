@@ -152,7 +152,7 @@ const Navigation = () => {
     );
     setTimeout(() => {
       setIsLoading(false);
-      window.open('https://wa.me/27637195979?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
+      window.open('https://wa.me/27603326337?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
     }, 1000);
   };
 
@@ -220,7 +220,7 @@ const Hero = () => {
     );
     setTimeout(() => {
       setIsLoading(false);
-      window.open('https://wa.me/27637195979?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
+      window.open('https://wa.me/27603326337?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
     }, 1000);
   };
 
@@ -505,7 +505,7 @@ const Pricing = () => {
     );
     setTimeout(() => {
       setIsLoading(null);
-      window.open(`https://wa.me/27637195979?text=I'd%20like%20to%20order%20a%20${plan.size}%20cylinder`, '_blank');
+      window.open(`https://wa.me/27603326337?text=I'd%20like%20to%20order%20a%20${plan.size}%20cylinder`, '_blank');
     }, 1000);
   };
 
@@ -702,7 +702,7 @@ const FinalCTA = () => {
     );
     setTimeout(() => {
       setIsLoading(false);
-      window.open('https://wa.me/27637195979?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
+      window.open('https://wa.me/27603326337?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
     }, 1000);
   };
 
@@ -790,7 +790,7 @@ const FloatingWhatsApp = () => {
     );
     setTimeout(() => {
       setIsLoading(false);
-      window.open('https://wa.me/27637195979?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
+      window.open('https://wa.me/27603326337?text=Hi!%20I\'d%20like%20to%20order%20gas', '_blank');
     }, 1000);
   };
 
