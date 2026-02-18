@@ -330,7 +330,7 @@ const Hero = () => {
                   {/* Phone Screen Content */}
                   <div className="bg-[#f0f2f5] min-h-[420px] lg:min-h-[480px]">
                     {/* WhatsApp Header */}
-                    <div className="bg-[#128C7E] px-4 py-3 flex items-center gap-3">
+                  {/* <div className="bg-[#128C7E] px-4 py-3 flex items-center gap-3">
                       <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center overflow-hidden">
                         <img 
                           src="https://i.postimg.cc/VkhcC3LR/TGC-LOGO-HORISONTAL.png" 
@@ -342,7 +342,7 @@ const Hero = () => {
                         <p className="text-white font-semibold text-sm" style={{ fontFamily: 'Montserrat, sans-serif' }}>The Gas Company</p>
                         <p className="text-white/70 text-xs">Online</p>
                       </div>
-                    </div>
+                    </div> */}
                     
                     {/* Chat Messages */}
 <div className="p-0">
