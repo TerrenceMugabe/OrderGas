@@ -304,7 +304,7 @@ const Hero = () => {
               className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-8 pt-6 border-t border-[#e2e8f0]"
             >
               {[
-                { icon: <CheckCircle2 className="w-4 h-4" />, text: 'Flexible Delivery' },
+                { icon: <CheckCircle2 className="w-4 h-4" />, text: 'Flexible delivery' },
                 { icon: <CheckCircle2 className="w-4 h-4" />, text: 'Secure payment' },
                 { icon: <CheckCircle2 className="w-4 h-4" />, text: '24/7 support' },
               ].map((item, index) => (
