@@ -263,7 +263,7 @@ const Hero = () => {
               variants={fadeInUp}
               className="text-base lg:text-lg text-[#64748b] mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
-              Skip the queues, calls, and heavy lifting. Order your gas cylinders instantly through WhatsApp and get fast, convenient delivery to your doorstep. You don’t have to carry your own cylinder and we can even connect it for you.
+              Skip the queues, forget the calls, and leave the heavy lifting to us. Order your gas or cylinders online or through WhatsApp and enjoy fast, convenient delivery straight to your door. We’ll even exchange or connect your cylinder, so you can relax and get back to your day.
             </motion.p>
 
             <motion.div 
