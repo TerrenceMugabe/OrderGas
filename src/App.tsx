@@ -263,7 +263,7 @@ const Hero = () => {
               variants={fadeInUp}
               className="text-base lg:text-lg text-[#64748b] mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
-              Skip the queues, forget the calls, and leave the heavy lifting to us. Order your gas or cylinders online or through WhatsApp and enjoy fast, convenient delivery straight to your door. We’ll even exchange or connect your cylinder, so you can relax and get back to your day.
+              Skip the queues, forget the calls, and leave the heavy lifting to us. Order your gas or cylinders through WhatsApp and get fast, convenient delivery straight to your door. You don’t have to drive, carry anything, or change your schedule. We’ll even exchange or connect your cylinder so you can relax and get on with your day.
             </motion.p>
 
             <motion.div 
